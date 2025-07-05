@@ -66,6 +66,7 @@ Dev Tools & Notebooks:
 ╠══════════════════════════════════════════════════════════════╣
 
 📦 Installation
+
 .Clone the repository
 git clone https://github.com/yashidubey/Dresscode.ai.git
 cd Dresscode.ai
