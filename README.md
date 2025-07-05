@@ -2,6 +2,8 @@ About
 
 Dresscode.ai is a deep learning-based system that generates 3D garment patterns and realistic textures from natural language prompts. It combines a GPT-style model (SewingGPT) for sewing pattern token generation and a fine-tuned Stable Diffusion model for producing high-quality, tileable PBR textures. The system enables end-to-end virtual clothing design, offering outputs compatible with 3D rendering and simulation tools like Blender.
 
+╠══════════════════════════════════════════════════════════════╣
+
 🚀 Features
 👗 Prompt-to-Pattern Generation
 Generate sewing patterns directly from natural language prompts using SewingGPT.
@@ -29,8 +31,12 @@ Clean and intuitive user interface, responsive across desktop and mobile.
 
 📊 Admin & Experiment Dashboard (if built)
 Track prompt usage, model performance, and export metrics.
+
+╠══════════════════════════════════════════════════════════════╣
+
 🛠️ Tech Stack
 Machine Learning & Deep Learning:
+
 Python
 
 PyTorch – for training SewingGPT and Stable Diffusion models
@@ -62,19 +68,21 @@ Weights & Biases (optional) – for experiment tracking
 
 Matplotlib / NumPy / SciPy – for visualization & data processing
 
+╠══════════════════════════════════════════════════════════════╣
+
 🚀 Installation
-# Clone the repository
+Clone the repository
 git clone https://github.com/yashidubey/Dresscode.ai.git
 cd Dresscode.ai
 
-# (Optional) Create a virtual environment
+Create a virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
-# Install Python dependencies
+Install Python Dependencies
 pip install -r requirements.txt
 
-# If using Jupyter Notebooks (highly recommended)
+If using Jupyter Notebooks (highly recommended)
 pip install notebook
 jupyter notebook
 
