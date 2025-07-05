@@ -33,56 +33,46 @@ Clean and intuitive user interface, responsive across desktop and mobile.
 Track prompt usage, model performance, and export metrics.
 
 ╠══════════════════════════════════════════════════════════════╣
-
 🛠️ Tech Stack
+
 Machine Learning & Deep Learning:
-
-Python
-
-PyTorch – for training SewingGPT and Stable Diffusion models
-
-Hugging Face Transformers – for NLP model handling
-
-Stable Diffusion – for image generation
-
-Custom GPT Model (SewingGPT) – trained on pattern data
+.Python
+.PyTorch
+.Hugging Face Transformers
+.Stable Diffusion
+.Custom GPT Model (SewingGPT)
 
 Computer Vision & Graphics:
-OpenCV – for image processing
-
-Blender – for 3D visualization and garment simulation
-
-PBR Texture Generation – for realistic clothing textures
+.OpenCV
+.Blender
+.PBR Texture Generation
 
 Prompt-to-Pattern Pipeline:
-Tokenizer – encodes textual sewing instructions
-
-Custom Decoder – maps prompts to structured patterns
+.Tokenizer
+.Custom Decoder
 
 Dev Tools & Notebooks:
-Jupyter Notebook / Google Colab – for experimentation and model training
+.Jupyter Notebook / Google Colab
+.Git & GitHub
+.Weights & Biases (optional)
+.Matplotlib / NumPy / SciPy
 
-Git & GitHub – for version control and collaboration
-
-Weights & Biases (optional) – for experiment tracking
-
-Matplotlib / NumPy / SciPy – for visualization & data processing
 
 ╠══════════════════════════════════════════════════════════════╣
 
 🚀 Installation
-Clone the repository
+.Clone the repository
 git clone https://github.com/yashidubey/Dresscode.ai.git
 cd Dresscode.ai
 
-Create a virtual environment
+.Create a virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
-Install Python Dependencies
+.Install Python Dependencies
 pip install -r requirements.txt
 
-If using Jupyter Notebooks (highly recommended)
+.If using Jupyter Notebooks (highly recommended)
 pip install notebook
 jupyter notebook
 
