@@ -40,7 +40,7 @@ Track prompt usage, model performance, and export metrics.
 
 🛠️ Tech Stack
 
-Machine Learning & Deep Learning:
+1)Machine Learning & Deep Learning:
 
 .Python
 
@@ -53,7 +53,7 @@ Machine Learning & Deep Learning:
 .Custom GPT Model (SewingGPT)
 
 
-Computer Vision & Graphics:
+2)Computer Vision & Graphics:
 .OpenCV
 
 .Blender
@@ -61,13 +61,13 @@ Computer Vision & Graphics:
 .PBR Texture Generation
 
 
-Prompt-to-Pattern Pipeline:
+3)Prompt-to-Pattern Pipeline:
 
 .Tokenizer
 
 .Custom Decoder
 
-Dev Tools & Notebooks:
+4)Dev Tools & Notebooks:
 
 .Jupyter Notebook / Google Colab
 
@@ -100,7 +100,7 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
 
 
-.If using Jupyter Notebooks (highly recommended)
+##If using Jupyter Notebooks (highly recommended)
 
 pip install notebook
 
