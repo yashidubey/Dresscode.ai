@@ -41,25 +41,40 @@ Track prompt usage, model performance, and export metrics.
 🛠️ Tech Stack
 
 Machine Learning & Deep Learning:
+
 .Python
+
 .PyTorch
+
 .Hugging Face Transformers
+
 .Stable Diffusion
+
 .Custom GPT Model (SewingGPT)
+
 
 Computer Vision & Graphics:
 .OpenCV
+
 .Blender
+
 .PBR Texture Generation
 
+
 Prompt-to-Pattern Pipeline:
+
 .Tokenizer
+
 .Custom Decoder
 
 Dev Tools & Notebooks:
+
 .Jupyter Notebook / Google Colab
+
 .Git & GitHub
+
 .Weights & Biases (optional)
+
 .Matplotlib / NumPy / SciPy
 
 
@@ -67,18 +82,27 @@ Dev Tools & Notebooks:
 
 📦 Installation
 
-.Clone the repository
+##Clone the repository
+
 git clone https://github.com/yashidubey/Dresscode.ai.git
+
 cd Dresscode.ai
 
-.Create a virtual environment
+##Create a virtual environment
+
 python -m venv venv
+
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
-.Install Python Dependencies
+
+##Install Python Dependencies
+
 pip install -r requirements.txt
 
+
 .If using Jupyter Notebooks (highly recommended)
+
 pip install notebook
+
 jupyter notebook
 
