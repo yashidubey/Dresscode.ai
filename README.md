@@ -1,10 +1,13 @@
-About
+🚀 About the Project
 
 Dresscode.ai is a deep learning-based system that generates 3D garment patterns and realistic textures from natural language prompts. It combines a GPT-style model (SewingGPT) for sewing pattern token generation and a fine-tuned Stable Diffusion model for producing high-quality, tileable PBR textures. The system enables end-to-end virtual clothing design, offering outputs compatible with 3D rendering and simulation tools like Blender.
 
 ╠══════════════════════════════════════════════════════════════╣
 
-🚀 Features
+✨ Features
+
+
+
 👗 Prompt-to-Pattern Generation
 Generate sewing patterns directly from natural language prompts using SewingGPT.
 
@@ -33,6 +36,8 @@ Clean and intuitive user interface, responsive across desktop and mobile.
 Track prompt usage, model performance, and export metrics.
 
 ╠══════════════════════════════════════════════════════════════╣
+
+
 🛠️ Tech Stack
 
 Machine Learning & Deep Learning:
@@ -60,7 +65,7 @@ Dev Tools & Notebooks:
 
 ╠══════════════════════════════════════════════════════════════╣
 
-🚀 Installation
+📦 Installation
 .Clone the repository
 git clone https://github.com/yashidubey/Dresscode.ai.git
 cd Dresscode.ai
